@@ -6,6 +6,9 @@ const Service = ({service}) => {
         <div>
             <img src={img} alt="" />            
             <h3>{name} </h3>
+            <p>Cost: {price}</p>
+            <p><small>{description}</small></p>
+            <button>BOOK NOW: {name}</button>
         </div>
     );
 };
