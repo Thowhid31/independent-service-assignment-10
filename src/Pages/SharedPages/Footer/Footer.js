@@ -3,7 +3,8 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer>
-            <h1>Footer</h1>
+            <p><small><span dangerouslySetInnerHTML={{ "__html": "&copy;"} }/> 
+                 Copyright: {new Date().getFullYear()}</small></p>
         </footer>
     );
 };
