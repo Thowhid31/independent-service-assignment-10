@@ -21,8 +21,8 @@ const HeadBanner = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>First Tour?</h3>
+          <p>Let's do with me. I guides you everywhere.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -33,8 +33,8 @@ const HeadBanner = () => {
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Do you Like Adventure?</h3>
+          <p>Start your day with booking me as an exclusive guide.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -45,9 +45,9 @@ const HeadBanner = () => {
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Journey is Always On.</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            I am always with you throughout your journey.
           </p>
         </Carousel.Caption>
       </Carousel.Item>

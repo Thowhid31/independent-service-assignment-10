@@ -8,3 +8,8 @@
 .single-service img{
     border-radius: 10px;
 }
+
+.service-button{
+    background-color: tomato;
+    border: none;
+}
