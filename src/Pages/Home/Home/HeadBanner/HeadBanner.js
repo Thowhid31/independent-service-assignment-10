@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 
+import HeadBanner1 from '../../../../images/HeadBanner/female-guid.jpg'
+import HeadBanner2 from '../../../../images/HeadBanner/go-for-adventure.jpg'
+import HeadBanner3 from '../../../../images/HeadBanner/the-journey-is-on.jpg'
+
+
 const HeadBanner = () => {
     const [index, setIndex] = useState(0);
 
@@ -12,7 +17,7 @@ const HeadBanner = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=First slide&bg=373940"
+          src={HeadBanner1}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -23,7 +28,7 @@ const HeadBanner = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Second slide&bg=282c34"
+          src={HeadBanner2}
           alt="Second slide"
         />
 
@@ -35,7 +40,7 @@ const HeadBanner = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="holder.js/800x400?text=Third slide&bg=20232a"
+          src={HeadBanner3}
           alt="Third slide"
         />
 
