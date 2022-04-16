@@ -1,0 +1,10 @@
+.single-service{
+   border: 1px solid tomato; 
+   border-radius: 10px;
+   padding-bottom: 10px;
+   text-align: center;
+}
+
+.single-service img{
+    border-radius: 10px;
+}
