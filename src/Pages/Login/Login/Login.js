@@ -1,9 +1,31 @@
 import React from 'react';
+import { Button, Form } from 'react-bootstrap';
+import './Login.css'
 
 const Login = () => {
     return (
-        <div>
-            <h1>Login Here</h1>
+        <div className='container w-50 mx-auto'>
+            <h2 className='login-h1 mb-3 mt-4'>Login Here</h2>
+            <Form>
+  <Form.Group className="mb-3" controlId="formBasicEmail">
+   
+    <Form.Control type="email" placeholder="Enter email" />
+    <Form.Text className="text-muted">
+      We'll never share your email with anyone else.
+    </Form.Text>
+  </Form.Group>
+
+  <Form.Group className="mb-3" controlId="formBasicPassword">
+    
+    <Form.Control type="password" placeholder="Password" />
+  </Form.Group>
+  <Form.Group className="mb-3" controlId="formBasicCheckbox">
+    
+  </Form.Group>
+  <Button variant="primary" type="submit">
+    Submit
+  </Button>
+</Form>
         </div>
     );
 };
