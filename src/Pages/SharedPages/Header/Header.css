@@ -1,0 +1,17 @@
+.nav-class{
+    background-color: tomato;
+}
+
+.nav-link-color{
+    color: white;
+}
+
+.nav-link-color:hover{
+    color: aqua;
+}
+
+.nav-img img{
+    border-radius: 20px;
+    height: 60px;
+    width: 120px;
+}
