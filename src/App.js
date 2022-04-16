@@ -7,7 +7,6 @@ import Header from './Pages/SharedPages/Header/Header';
 function App() {
   return (
     <div className="App">
-      <h1>Hello Guider!</h1>
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
