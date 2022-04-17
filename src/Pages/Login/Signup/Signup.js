@@ -4,6 +4,7 @@ import './Signup.css'
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
 import SocialLogin from '../Login/SocialLogin/SocialLogin';
+import Loading from '../../SharedPages/Loading/Loading';
 
 
 
@@ -42,6 +43,10 @@ const Signup = () => {
 
         
 
+    }
+
+    if(loading || updating){
+        return <Loading></Loading>
     }
 
     if(user){

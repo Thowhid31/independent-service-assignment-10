@@ -4,6 +4,7 @@ import googleLogo from '../../../../images/HeadBanner/googlelogo.png'
 import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../../../firebase.init';
 import { useNavigate } from 'react-router-dom';
+import Loading from '../../../SharedPages/Loading/Loading';
 
 const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
@@ -14,6 +15,9 @@ const SocialLogin = () => {
             <div>
                 <p className='text-danger'>Error: {error.message}</p>
             </div>
+    }
+    if(loading){
+        return <Loading></Loading>
     }
     if(user){
         navigate('/home')
