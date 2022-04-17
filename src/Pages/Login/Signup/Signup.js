@@ -41,7 +41,9 @@ const Signup = () => {
                 <input type="text" name="" id="" placeholder='Your Name'/>
                 <input type="email" name="email" id="" placeholder='Your Email' required />
                 <input type="password" name="password" id="" placeholder='Password' required/>
-                <input type="submit" value='Signup'/>
+                <input type="checkbox" name="terms" id="terms" />
+                <label htmlFor="terms">Accept all cost and conditions! </label>
+                <input className='btn btn-info' type="submit" value='Signup'/>
             </form>
             <p>Already in My site? <Link to='/login' className='signup-toggle text-decoration-none' onClick={navigateLogin}>Please Login</Link></p>
             <SocialLogin></SocialLogin>
