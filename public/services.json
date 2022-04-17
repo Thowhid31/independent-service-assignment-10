@@ -26,6 +26,20 @@
         "price": "from $300",
         "description": "My native region is Bangladesh. But if you want I can guide you America, Britain, Australia, Soudi Arabia also. And the cost depends on your travel location.",
         "img": "https://www.simpleimageresizer.com/_uploads/photos/1ce79c05/travel-04_360x205.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Foreign Service",
+        "price": "from $2000",
+        "description": "My native region is Bangladesh. But if you want I can guide you America, Britain, Australia, Soudi Arabia also. And the cost depends on your travel location.",
+        "img": "https://www.simpleimageresizer.com/_uploads/photos/54cef738/miniature-airplane-travel-theme_360x205.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Discount 2nd Book",
+        "price": "from -$100",
+        "description": "My native region is Bangladesh. But if you want I can guide you America, Britain, Australia, Soudi Arabia also. And the cost depends on your travel location.",
+        "img": "https://www.simpleimageresizer.com/_uploads/photos/54cef738/silhouette-people-happy-time_360x205.jpg"
     }
     
 ]
