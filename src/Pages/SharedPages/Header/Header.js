@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import './Header.css'
 
 import navImage from '../../../images/HeadBanner/travel-guid.png'
@@ -18,13 +18,8 @@ const Header = () => {
     <Nav className="me-auto">
       <Nav.Link href="home#services">Services</Nav.Link>
       <Nav.Link href="home#blog">Blog</Nav.Link>
-      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-      </NavDropdown>
+      <Nav.Link href="/checkout">Checkout</Nav.Link>
+      
     </Nav>
     <Nav>
       <Nav.Link as={Link} to="/about">About</Nav.Link>

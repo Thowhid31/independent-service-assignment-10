@@ -29,6 +29,10 @@ const Signup = () => {
         createUserWithEmailAndPassword(email, password);
 
     }
+
+    if(user){
+        navigate('/checkout')
+    }
     return (
         <div className='signup-form'>
             <h2 className='signup-header mb-3 mt-4'>Please Signup</h2>
