@@ -1,5 +1,7 @@
 .google-button{
     background-color: tomato;
+    border-radius: 30px;
+    border: none;
 }
 
 .goole-logo-back{
