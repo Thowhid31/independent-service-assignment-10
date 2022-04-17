@@ -1,4 +1,4 @@
-.signup-form input{
+.signup-form input:not([type=checkbox]){
     display: block;
     margin-bottom: 10px;
     width: 100%;
