@@ -1,8 +1,8 @@
-#Tour Guider#
+# Tour Guider #
 Live site Link:
 Repository Link: https://github.com/programming-hero-web-course-4/independent-service-provider-Thowhid31
 
-###Features and Functionality of My Site###
+### Features and Functionality of My Site ###
 * Responsive Navbar,
 * Responsive Home and Service page,
 * Footer with Social Links and copyright sign.
@@ -11,7 +11,7 @@ Repository Link: https://github.com/programming-hero-web-course-4/independent-se
 * This site provides a private route also,
 * And also an error 404 page.
 
-###List of using technologies###
+### List of using technologies ###
 1. React,
 2. Bootstrap,
 3. React Router,
