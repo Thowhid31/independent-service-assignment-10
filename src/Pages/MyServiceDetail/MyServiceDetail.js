@@ -5,11 +5,13 @@ import './MyServiceDetail.css'
 const MyServiceDetail = () => {
     const {serviceId} = useParams()
     return (
-        <div>
+        <div className='container'>
             <h1>My service: {serviceId}</h1>
             <div>
+
+
             <Link to='/checkout'>
-                <button className='btn btn-primary check-btn'>Checkout Book</button>
+                <button className='btn btn-primary check-btn'>Confirm Book</button>
             </Link>
             </div>
         </div>
