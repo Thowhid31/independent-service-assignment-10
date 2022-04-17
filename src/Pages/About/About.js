@@ -14,7 +14,7 @@ const About = () => {
                 <img className='confirm-photo' src={myImage}  alt="" />
                 <div className='mt-3'>
                     <h3>MD. THOWHIDUZZAMAN</h3>
-                    <p>My goal is very easy. I want to be a web developer with is wonderful journey. But it is not easy to gain. Web Development is a very complicated and long term concept. I knew at first, it is tough but not impossible. My JavaScript journey started with JM Bhai. He is a wonderful man I had ever know. His motives motivated me as well as. I try to maintain his advice throughout the Course. And I struggle even now to gain final goal.</p>
+                    <p className='para-class-of-about'>My goal is very easy. I want to be a web developer with is wonderful journey. But it is not easy to gain. Web Development is a very complicated and long term concept. I knew at first, it is tough but not impossible. My JavaScript journey started with JM Bhai. He is a wonderful man I had ever know. His motives motivated me as well as. I try to maintain his advice throughout the Course. And I struggle even now to gain final goal.</p>
                 </div>
 
             </div>
