@@ -17,7 +17,7 @@ const Footer = () => {
                     <p className='social-icon-class'>
                         <a href="https://www.facebook.com/thowhid.antor/"><img src={fb} alt="" /></a>
                         <a href="https://www.linkedin.com/in/thowhidantor/"><img src={li} alt="" /></a>
-                        <a href="https://twitter.com/home"><img src={tr} alt="" /></a>
+                        <a href="https://twitter.com/ThowhidAntor"><img src={tr} alt="" /></a>
                         <a href="https://www.youtube.com/"><img src={yt} alt="" /></a>
                     </p>
                 </div>
