@@ -4,19 +4,22 @@
 }
 
 .confirm-photo{
-    height: 400px;
-    width: 600px;
+    width: 100%;
+    
     border-radius: 20px;
+    padding: 5px;
 }
 
 .section-confirm{
-    height: 100%;
-    width: 600px;
     border: 2px solid tomato;
     border-radius: 20px;
-    padding: 5px;
+    padding: 10px;
     background-color: aqua;
 
+}
+
+.section-confirm p{
+    padding: 10px;
 }
 
 /* @media only screen and (max-width: 575px){
