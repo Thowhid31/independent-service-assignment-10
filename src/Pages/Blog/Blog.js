@@ -26,7 +26,8 @@ const Blog = () => {
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <strong>I use Google Firebase.</strong>Because, Google Firebase gives us many others features to easily handle authentication and authorized after completed site. 
+        <strong>Other options to implement authentication : </strong> React router hook, Back4App, Parse, AWS Amplify,Backendless etc.
       </div>
     </div>
   </div>
@@ -38,7 +39,7 @@ const Blog = () => {
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> 
+        <strong>There are many services which GOOGLE FIREBASE provide.</strong> 1. Cloud Firestore, 2. Cloud Functions, 3. Hosting, 4. Cloud, 5. Google Analysis, 6, Predictions, 7. Cloud Messaging, 8. Dynamic Links and 9. Remote Config.
       </div>
     </div>
   </div>
