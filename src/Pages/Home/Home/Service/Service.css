@@ -7,9 +7,16 @@
 
 .single-service img{
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .service-button{
     background-color: tomato;
     border: none;
+}
+
+.single-service:hover{
+    color: white;
+    background: linear-gradient(#ff5252, #b33939);
+  transition:.6s;
 }

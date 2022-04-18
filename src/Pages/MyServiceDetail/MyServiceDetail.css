@@ -22,19 +22,8 @@
     padding: 10px;
 }
 
-/* @media only screen and (max-width: 575px){
-    .confirm-division{
-        grid-template-columns: repeat(1, 1fr);
-        height: 100%;
-        width: 100%;
-    }
+.section-confirm:hover{
+    color: white;
+    background: linear-gradient(#ff5252, #b33939);
+  transition:.6s;
 }
-
-@media only screen and (min-width: 575px) and (max-width: 992px){
-    .confirm-division{
-        grid-template-columns: repeat(1, 1fr);
-        height: 100%;
-        width: 100%;
-    }
-} */
-
